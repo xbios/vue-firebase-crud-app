@@ -4,10 +4,10 @@
       <table class="table table-striped">
         <thead>
           <tr>
-            <th>Name</th>
+            <th>isim</th>
             <th>Email</th>
-            <th>Phone</th>
-            <th>Actions</th>
+            <th>Telefon</th>
+            <th>İşlem</th>
           </tr>
         </thead>
         <tbody>
@@ -19,13 +19,13 @@
               <router-link
                 :to="{ name: 'edit', params: { id: user.key } }"
                 class="btn btn-primary"
-                >Edit
+                >Düzenle
               </router-link>
               <button
                 @click.prevent="deleteUser(user.key)"
                 class="btn btn-danger"
               >
-                Delete
+                Sil
               </button>
             </td>
           </tr>

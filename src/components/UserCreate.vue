@@ -1,10 +1,10 @@
 <template>
   <div class="row justify-content-center">
     <div class="col-md-5">
-      <h3 class="text-center">Add User</h3>
+      <h3 class="text-center">Ekle</h3>
       <form @submit.prevent="onFormSubmit">
         <div class="form-group">
-          <label>Name</label>
+          <label>İsim</label>
           <input
             type="text"
             class="form-control"
@@ -24,7 +24,7 @@
         </div>
 
         <div class="form-group">
-          <label>Phone</label>
+          <label>Telefon</label>
           <input
             type="text"
             class="form-control"
@@ -34,7 +34,7 @@
         </div>
 
         <div class="form-group">
-          <button class="btn btn-primary btn-block">Add User</button>
+          <button class="btn btn-primary btn-block">Kayıt Ekle</button>
         </div>
       </form>
     </div>

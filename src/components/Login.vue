@@ -1,10 +1,10 @@
 <template>
   <div class="vue-tempalte">
     <form @submit.prevent="userLogin">
-      <h3>Sign In</h3>
+      <h3>Giriş</h3>
 
       <div class="form-group">
-        <label>Email address</label>
+        <label>Email adres</label>
         <input
           type="email"
           class="form-control form-control-lg"
@@ -13,7 +13,7 @@
       </div>
 
       <div class="form-group">
-        <label>Password</label>
+        <label>Şifre</label>
         <input
           type="password"
           class="form-control form-control-lg"
@@ -26,7 +26,7 @@
       </button>
 
       <p class="forgot-password text-right mt-2 mb-4">
-        <router-link to="/forgot-password">Forgot password ?</router-link>
+        <router-link to="/forgot-password">Şifremi Hatırlat ?</router-link>
       </p>
     </form>
   </div>
