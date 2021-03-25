@@ -1,15 +1,15 @@
-import * as firebase from 'firebase';
+import * as firebase from "firebase";
 
 const firebaseConfig = {
-    apiKey: "api-key",
-    authDomain: "project-id.firebaseapp.com",
-    databaseURL: "https://project-id.firebaseio.com",
-    projectId: "project-id",
-    storageBucket: "project-id.appspot.com",
-    messagingSenderId: "sender-id",
-    appId: "app-id",
-    measurementId: "G-measurement-id"
-}
+  apiKey: "AIzaSyDAUwggkaPCtHoZOfqOqiCWzz37ohNbO_M",
+  authDomain: "sandboxcrud.firebaseapp.com",
+  // databaseURL: "https://project-id.firebaseio.com",
+  projectId: "sandboxcrud",
+  storageBucket: "sandboxcrud.appspot.com",
+  messagingSenderId: "767545572197",
+  appId: "1:767545572197:web:7404b1dedf0ac9a685bf8c",
+  measurementId: "G-PT0613VJM0"
+};
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
 
