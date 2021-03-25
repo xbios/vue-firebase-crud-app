@@ -1,21 +1,25 @@
 <template>
-  <div class="vue-tempalte">
-    <form @submit.prevent="forgetPassword">
-      <h3>Şifremi Hatırlat</h3>
+  <div class="vertical-center">
+    <div class="inner-block">
+      <div class="vue-tempalte">
+        <form @submit.prevent="forgetPassword">
+          <h3>Şifremi Hatırlat</h3>
 
-      <div class="form-group">
-        <label>Email</label>
-        <input
-          type="email"
-          class="form-control form-control-lg"
-          v-model="user.email"
-        />
+          <div class="form-group">
+            <label>Email</label>
+            <input
+              type="email"
+              class="form-control form-control-lg"
+              v-model="user.email"
+            />
+          </div>
+
+          <button type="submit" class="btn btn-dark btn-lg btn-block">
+            Şifre Resetle
+          </button>
+        </form>
       </div>
-
-      <button type="submit" class="btn btn-dark btn-lg btn-block">
-        Şifre Resetle
-      </button>
-    </form>
+    </div>
   </div>
 </template>
 

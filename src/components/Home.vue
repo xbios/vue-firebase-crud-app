@@ -4,19 +4,19 @@
       class="navbar navbar-dark bg-dark justify-content-between flex-nowrap flex-row"
     >
       <div class="container">
-        <a class="navbar-brand float-left">Firebase Vue CRUD Rehber 1.0</a>
+        <a class="navbar-brand float-left">(Firebase Vue CRUD) Rehber 1.0</a>
         <ul class="nav navbar-nav flex-row float-right">
           <li class="nav-item">
-            <router-link class="nav-link pr-3" to="/add">Add User</router-link>
+            <router-link class="nav-link pr-3" to="/add">Ekle</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/list">View Users</router-link>
+            <router-link class="nav-link" to="/list">Liste</router-link>
           </li>
         </ul>
       </div>
     </nav>
 
-    <h3>Welcome</h3>
+    <h3>Hoşgeldiniz</h3>
     <p>{{ user.displayName }}</p>
     <p>{{ user.email }}</p>
 
@@ -25,7 +25,7 @@
       class="btn btn-dark btn-lg btn-block"
       @click="logOut()"
     >
-      Log out
+      Çıkış
     </button>
   </div>
 </template>

@@ -46,17 +46,17 @@
       </div>
     </nav> -->
 
-    <!-- <div class="container mt-5">
+    <div class="container mt-5">
       <router-view></router-view>
-    </div> -->
+    </div>
 
     <!-- Main -->
-    <div class="App">
+    <!-- <div class="App">
       <div class="vertical-center">
         <div class="inner-block">
           <router-view />
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
