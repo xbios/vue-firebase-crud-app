@@ -27,6 +27,15 @@
             required
           />
         </div>
+        <div class="form-group">
+          <label>Adres</label>
+          <input
+            type="text"
+            class="form-control"
+            v-model="cari.adres2"
+            required
+          />
+        </div>
 
         <div class="form-group">
           <button class="btn btn-primary btn-block">Ekle</button>
@@ -57,6 +66,7 @@ export default {
           this.cari.kod = "";
           this.cari.isim = "";
           this.cari.adres = "";
+          this.cari.adres2 = "";
         })
         .catch((error) => {
           console.log(error);
