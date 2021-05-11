@@ -20,6 +20,11 @@ const routes = [
     component: () => import("../components/Test1.vue")
   },
   {
+    path: "/onlinephp",
+    name: "onlinephp",
+    component: () => import("../components/onlinephp.vue")
+  },
+  {
     path: "/fiddle",
     name: "Fiddle",
     component: () => import("../components/fiddle.vue")

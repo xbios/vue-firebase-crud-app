@@ -14,6 +14,9 @@
         </a>
         <ul class="nav navbar-nav flex-row float-right">
           <li class="nav-item">
+            <router-link class="nav-link pr-3" to="/onlinephp">php</router-link>
+          </li>
+          <li class="nav-item">
             <router-link class="nav-link pr-3" to="/test1">test1</router-link>
           </li>
           <li class="nav-item">
