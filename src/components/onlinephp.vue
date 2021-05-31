@@ -2,8 +2,8 @@
 <template>
   <div>
     <h3>Hoşgeldiniz</h3>
-    <a href="http://tpcg.io/9oh8k1Z4">Online Php Compiler </a>
-    <HtmlView :html="`${url}`" :durum="` ${url == '' ? false : true}`" />
+    <!-- <a href="http://tpcg.io/9oh8k1Z4">Online Php Compiler </a> -->
+    <!-- <HtmlView :html="`${url}`" :durum="` ${url == '' ? false : true}`" /> -->
 
     <iframe
       src="https://tr.widgets.investing.com/live-currency-cross-rates?theme=lightTheme&hideTitle=true&roundedCorners=true&pairs=68"
